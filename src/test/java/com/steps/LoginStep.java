@@ -1,5 +1,6 @@
 package com.steps;
 
+import org.apache.commons.collections.bag.SynchronizedSortedBag;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -55,6 +56,7 @@ public class LoginStep {
 	   Thread.sleep(2000);
 	   driver.quit();
 	}
+	
 
  
 	
@@ -69,6 +71,7 @@ public class LoginStep {
 		}
 	   
 		System.out.println("DONE...");
+		System.out.println("DONE2>>>");
 	}
  
 }
